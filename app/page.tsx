@@ -13,7 +13,7 @@ export default function Home() {
       {/* ── Hero ─────────────────────────────────────────────────────── */}
       <section className="w-full bg-[#CBDEE1] border-b border-[#1a1a1a]">
         <div className="max-w-[900px] mx-auto px-8 py-16 md:py-24">
-          <p className="text-[#888780] text-sm mb-5 tracking-wide">
+          <p className="text-[#888780] text-xs mb-5 tracking-widest uppercase">
             Product designer · Los Angeles
           </p>
           <h1 className="text-5xl md:text-6xl font-bold text-[#1a1a1a] mb-4 leading-tight">
@@ -59,16 +59,19 @@ export default function Home() {
           {/* Project 1: Creature */}
           <div className="p-8 bg-white border-b border-[#1a1a1a]">
             <div className="flex justify-between items-baseline gap-4 mb-4">
-              <h2 className="text-lg font-bold text-[#1a1a1a]">Creature</h2>
+              <h2 className="text-lg font-bold text-[#1a1a1a]">Creature Books</h2>
               <span className="text-sm text-[#888780] shrink-0">
                 Design system + Next.js app
               </span>
             </div>
             <p className="text-[#1a1a1a] mb-5 leading-relaxed text-sm">
-              A design system and AI-powered application exploring structured
-              creativity. Includes a fully documented component library, a
-              conversational interface built on the Claude API, and experiment
-              tracking via W&amp;B Weave for observability across model runs.
+              Creature is a book discovery and tracking app with a fully
+              documented design system — token foundation, component specs, and
+              a user flow diagram built in Figma. The frontend is built in
+              Next.js with TypeScript using Claude Code, with an AI-powered
+              mood-based book recommendation feature on the Explore screen.
+              W&amp;B Weave is integrated for LLM observability, tracking every
+              prompt and response through the discovery flow.
             </p>
             <div className="flex flex-wrap gap-2 mb-6">
               {["Claude API", "W&B Weave", "Next.js", "TypeScript"].map(
@@ -95,10 +98,12 @@ export default function Home() {
               </span>
             </div>
             <p className="text-[#1a1a1a] mb-5 leading-relaxed text-sm">
-              A full-stack art discovery platform powered by the Harvard Art
-              Museums API. Users can browse collections, build personal
-              galleries, and uncover connections across cultures and eras through
-              a clean, browsable interface.
+              CurateSphere is a full-stack art exhibition curation app built on
+              the PERN stack, integrating the Harvard Art Museums API to give
+              users access to over 244,000 artworks. Users can create, edit, and
+              share personal exhibitions with advanced filtering by medium,
+              culture, period, and technique. Built with React, Node.js,
+              Express, PostgreSQL, and Tailwind CSS.
             </p>
             <div className="flex flex-wrap gap-2 mb-6">
               {[
