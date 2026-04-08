@@ -5,7 +5,7 @@ const BTN =
   "border border-[#1a1a1a] rounded-[4px] px-4 py-1.5 text-sm text-[#1a1a1a] hover:bg-[#1a1a1a] hover:text-[#F5F5F0] transition-colors";
 
 const TAG =
-  "border border-[#1a1a1a] rounded-[20px] px-3 py-0.5 text-xs text-[#1a1a1a]";
+  "bg-[#CBDEE1] rounded-[20px] px-3 py-0.5 text-xs text-[#085041]";
 
 export default function Home() {
   return (
