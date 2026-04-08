@@ -80,9 +80,9 @@ export default function Home() {
               )}
             </div>
             <div className="flex flex-wrap gap-3">
-              <a href="#" className={BTN}>Live site</a>
-              <a href="#" className={BTN}>GitHub</a>
-              <a href="#" className={BTN}>Case study</a>
+              <a href="https://creature-app.vercel.app/" target="_blank" rel="noopener noreferrer" className={BTN}>Live site</a>
+              <a href="https://github.com/molliean/creature-app" target="_blank" rel="noopener noreferrer" className={BTN}>GitHub</a>
+              <a href="https://www.figma.com/design/58i3A5rml54rTcRGa5QyP6/CB-APP?node-id=71-770&t=j5tDMJjWdvJwv8dN-1" target="_blank" rel="noopener noreferrer" className={BTN}>Figma design</a>
             </div>
           </div>
 
