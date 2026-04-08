@@ -50,7 +50,8 @@ export default function Home() {
       </section>
 
       {/* ── Work ─────────────────────────────────────────────────────── */}
-      <section className="px-8 py-16">
+      <section className="py-16">
+        <div className="max-w-[900px] mx-auto px-8">
         <p className="text-xs uppercase tracking-widest text-[#888780] mb-6">
           Work
         </p>
@@ -118,10 +119,12 @@ export default function Home() {
             </div>
           </div>
         </div>
+        </div>
       </section>
 
       {/* ── Experience ───────────────────────────────────────────────── */}
-      <section className="px-8 pb-16 max-w-3xl mx-auto">
+      <section className="pb-16">
+        <div className="max-w-[900px] mx-auto px-8">
         <p className="text-xs uppercase tracking-widest text-[#888780] mb-6">
           Experience
         </p>
@@ -153,6 +156,7 @@ export default function Home() {
               <p className="text-sm text-[#888780]">Various institutions</p>
             </div>
           </div>
+        </div>
         </div>
       </section>
 
