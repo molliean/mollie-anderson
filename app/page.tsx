@@ -171,7 +171,7 @@ export default function Home() {
             <div>
               <p className="text-[#1a1a1a] text-sm font-medium">Assistant Administrator</p>
               <p className="text-sm text-[#888780]">The Metropolitan Museum of Art</p>
-              <p className="text-xs text-[#888780] mt-1">Supported Photograph Conservation department and co-chaired the Time-Based Media Working Group on conservation best practices. Co-authored peer-reviewed publications, coordinated research, grants, and public programming.</p>
+              <p className="text-xs text-[#888780] mt-1">Managed collection of archival photographs; coordinated research, grant proposals, and public programming; co-authored peer-reviewed publications.</p>
             </div>
           </div>
         </div>
