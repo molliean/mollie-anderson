@@ -20,12 +20,20 @@ export default function Home() {
             Mollie Anderson
           </h1>
           <p className="text-xl text-[#1a1a1a] mb-7">Design × engineering × AI</p>
-          <p className="text-[#1a1a1a] mb-9 max-w-lg leading-relaxed text-sm">
-            I design products at the intersection of AI, engineering, and human
-            experience. My path through art museums, executive operations, and
-            software engineering informs a practice equally fluent in pixels and
-            code. Currently building design systems and AI-powered interfaces in
-            Los Angeles.
+          <p className="text-[#1a1a1a] mb-9 max-w-2xl leading-relaxed text-sm">
+            I&apos;m a product designer and engineer based in Los Angeles, with a
+            background that runs from the conservation labs of the Metropolitan
+            Museum of Art to the engineering team of one of the leading AI
+            developer platforms. I spent two years as senior executive assistant
+            to the CEO of Weights &amp; Biases, learning how fast-moving
+            technical products get built and shipped, then completed a software
+            engineering bootcamp and joined the team as an engineer, shipping
+            frontend and backend features in production. Product design is where
+            those threads converge: the visual instincts from my arts
+            background, the systems thinking from operations, and the technical
+            fluency from engineering. Passionate about creating seamless user
+            experiences and exploring the power of AI to enhance design
+            workflows.
           </p>
           <div className="flex flex-wrap gap-3">
             <a
@@ -137,28 +145,33 @@ export default function Home() {
           <div className="grid grid-cols-[100px_1fr] gap-6 py-6">
             <span className="text-sm text-[#888780] pt-px">2024–25</span>
             <div>
-              <p className="text-[#1a1a1a] text-sm font-medium">
-                Software Engineer
-              </p>
+              <p className="text-[#1a1a1a] text-sm font-medium">Software Engineer</p>
               <p className="text-sm text-[#888780]">Weights &amp; Biases</p>
+              <p className="text-xs text-[#888780] mt-1">Shipped ~100 PRs across frontend and backend using React, Go, and GraphQL. Built shared UI components from Figma designs and contributed to standardizing component usage across internal tools.</p>
             </div>
           </div>
           <div className="grid grid-cols-[100px_1fr] gap-6 py-6">
             <span className="text-sm text-[#888780] pt-px">2022–24</span>
             <div>
-              <p className="text-[#1a1a1a] text-sm font-medium">
-                Senior EA to CEO
-              </p>
+              <p className="text-[#1a1a1a] text-sm font-medium">Senior EA to CEO</p>
               <p className="text-sm text-[#888780]">Weights &amp; Biases</p>
+              <p className="text-xs text-[#888780] mt-1">Managed cross-functional alignment, executive communications, and organizational systems across a fully remote global team.</p>
             </div>
           </div>
           <div className="grid grid-cols-[100px_1fr] gap-6 py-6">
-            <span className="text-sm text-[#888780] pt-px">Prior</span>
+            <span className="text-sm text-[#888780] pt-px">2019–22</span>
             <div>
-              <p className="text-[#1a1a1a] text-sm font-medium">
-                Art &amp; museum background
-              </p>
-              <p className="text-sm text-[#888780]">Various institutions</p>
+              <p className="text-[#1a1a1a] text-sm font-medium">Executive Assistant to the Director</p>
+              <p className="text-sm text-[#888780]">J. Paul Getty Trust</p>
+              <p className="text-xs text-[#888780] mt-1">Supported the Director of one of the world&apos;s leading art institutions. Managed board-facing communications, donor correspondence, and institutional events.</p>
+            </div>
+          </div>
+          <div className="grid grid-cols-[100px_1fr] gap-6 py-6">
+            <span className="text-sm text-[#888780] pt-px">2015–19</span>
+            <div>
+              <p className="text-[#1a1a1a] text-sm font-medium">Assistant Administrator</p>
+              <p className="text-sm text-[#888780]">The Metropolitan Museum of Art</p>
+              <p className="text-xs text-[#888780] mt-1">Supported Photograph Conservation department and co-chaired the Time-Based Media Working Group on conservation best practices. Co-authored peer-reviewed publications, coordinated research, grants, and public programming.</p>
             </div>
           </div>
         </div>
