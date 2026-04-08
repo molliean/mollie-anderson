@@ -1,5 +1,5 @@
 const PILL =
-  "border border-[#1a1a1a] rounded-[20px] px-4 py-1.5 text-sm text-[#1a1a1a] hover:bg-[#1a1a1a] hover:text-[#EDE0C8] transition-colors";
+  "border border-[#1a1a1a] rounded-[20px] px-4 py-1.5 text-sm text-[#1a1a1a] hover:bg-[#1a1a1a] hover:text-[#CBDEE1] transition-colors";
 
 const BTN =
   "border border-[#1a1a1a] rounded-[4px] px-4 py-1.5 text-sm text-[#1a1a1a] hover:bg-[#1a1a1a] hover:text-[#F5F5F0] transition-colors";
@@ -11,8 +11,8 @@ export default function Home() {
   return (
     <main className="min-h-screen font-[family-name:var(--font-primary)]">
       {/* ── Hero ─────────────────────────────────────────────────────── */}
-      <section className="w-full bg-[#EDE0C8] border-b border-[#1a1a1a]">
-        <div className="px-32 py-16 md:py-24">
+      <section className="w-full bg-[#CBDEE1] border-b border-[#1a1a1a]">
+        <div className="px-8 py-16 md:py-24">
           <p className="text-[#888780] text-sm mb-5 tracking-wide">
             Product designer · Los Angeles
           </p>
@@ -56,7 +56,7 @@ export default function Home() {
         </p>
         <div className="border border-[#1a1a1a] rounded-[4px] flex flex-col md:flex-row">
           {/* Project 1: Creature */}
-          <div className="p-8 w-[400px] md:border-r md:border-b-0 border-b border-[#1a1a1a]">
+          <div className="p-8 flex-1 bg-white rounded-tl-[4px] rounded-bl-[4px] md:border-r md:border-b-0 border-b border-[#1a1a1a]">
             <div className="flex justify-between items-baseline gap-4 mb-4">
               <h2 className="text-lg font-bold text-[#1a1a1a]">Creature</h2>
               <span className="text-sm text-[#888780] shrink-0">
@@ -86,7 +86,7 @@ export default function Home() {
           </div>
 
           {/* Project 2: CurateSphere */}
-          <div className="p-8 w-[400px]">
+          <div className="p-8 flex-1 bg-white rounded-tr-[4px] rounded-br-[4px]">
             <div className="flex justify-between items-baseline gap-4 mb-4">
               <h2 className="text-lg font-bold text-[#1a1a1a]">CurateSphere</h2>
               <span className="text-sm text-[#888780] shrink-0">
@@ -125,8 +125,8 @@ export default function Home() {
         <p className="text-xs uppercase tracking-widest text-[#888780] mb-6">
           Experience
         </p>
-        <div className="border border-[#1a1a1a] rounded-[4px] divide-y divide-[#1a1a1a]">
-          <div className="grid grid-cols-[100px_1fr] gap-6 px-8 py-6">
+        <div className="divide-y divide-[#1a1a1a]">
+          <div className="grid grid-cols-[100px_1fr] gap-6 py-6">
             <span className="text-sm text-[#888780] pt-px">2024–25</span>
             <div>
               <p className="text-[#1a1a1a] text-sm font-medium">
@@ -135,7 +135,7 @@ export default function Home() {
               <p className="text-sm text-[#888780]">Weights &amp; Biases</p>
             </div>
           </div>
-          <div className="grid grid-cols-[100px_1fr] gap-6 px-8 py-6">
+          <div className="grid grid-cols-[100px_1fr] gap-6 py-6">
             <span className="text-sm text-[#888780] pt-px">2022–24</span>
             <div>
               <p className="text-[#1a1a1a] text-sm font-medium">
@@ -144,7 +144,7 @@ export default function Home() {
               <p className="text-sm text-[#888780]">Weights &amp; Biases</p>
             </div>
           </div>
-          <div className="grid grid-cols-[100px_1fr] gap-6 px-8 py-6">
+          <div className="grid grid-cols-[100px_1fr] gap-6 py-6">
             <span className="text-sm text-[#888780] pt-px">Prior</span>
             <div>
               <p className="text-[#1a1a1a] text-sm font-medium">
