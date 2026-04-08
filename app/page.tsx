@@ -12,7 +12,7 @@ export default function Home() {
     <main className="min-h-screen font-[family-name:var(--font-primary)]">
       {/* ── Hero ─────────────────────────────────────────────────────── */}
       <section className="w-full bg-[#EDE0C8] border-b border-[#1a1a1a]">
-        <div className="max-w-3xl mx-auto px-8 py-16 md:py-24">
+        <div className="px-8 py-16 md:py-24">
           <p className="text-[#888780] text-sm mb-5 tracking-wide">
             Product designer · Los Angeles
           </p>
@@ -28,7 +28,6 @@ export default function Home() {
             Los Angeles.
           </p>
           <div className="flex flex-wrap gap-3">
-            <a href="#" className={PILL}>Resume</a>
             <a
               href="https://github.com/molliean"
               target="_blank"
@@ -38,26 +37,26 @@ export default function Home() {
               GitHub
             </a>
             <a
-              href="https://linkedin.com/in/molliean"
+              href="https://www.linkedin.com/in/mollie-anderson/"
               target="_blank"
               rel="noopener noreferrer"
               className={PILL}
             >
               LinkedIn
             </a>
-            <a href="mailto:hello@mollie.design" className={PILL}>Email</a>
+            <a href="mailto:molliean29@gmail.com" className={PILL}>Email</a>
           </div>
         </div>
       </section>
 
       {/* ── Work ─────────────────────────────────────────────────────── */}
-      <section className="max-w-3xl mx-auto px-8 py-16">
+      <section className="px-8 py-16">
         <p className="text-xs uppercase tracking-widest text-[#888780] mb-6">
           Work
         </p>
-        <div className="border border-[#1a1a1a] rounded-[4px]">
+        <div className="border border-[#1a1a1a] rounded-[4px] flex flex-col md:flex-row">
           {/* Project 1: Creature */}
-          <div className="p-8 border-b border-[#1a1a1a]">
+          <div className="p-8 flex-1 md:border-r md:border-b-0 border-b border-[#1a1a1a]">
             <div className="flex justify-between items-baseline gap-4 mb-4">
               <h2 className="text-lg font-bold text-[#1a1a1a]">Creature</h2>
               <span className="text-sm text-[#888780] shrink-0">
@@ -87,7 +86,7 @@ export default function Home() {
           </div>
 
           {/* Project 2: CurateSphere */}
-          <div className="p-8">
+          <div className="p-8 flex-1">
             <div className="flex justify-between items-baseline gap-4 mb-4">
               <h2 className="text-lg font-bold text-[#1a1a1a]">CurateSphere</h2>
               <span className="text-sm text-[#888780] shrink-0">
@@ -122,7 +121,7 @@ export default function Home() {
       </section>
 
       {/* ── Experience ───────────────────────────────────────────────── */}
-      <section className="max-w-3xl mx-auto px-8 pb-16">
+      <section className="px-8 pb-16">
         <p className="text-xs uppercase tracking-widest text-[#888780] mb-6">
           Experience
         </p>
@@ -159,13 +158,13 @@ export default function Home() {
 
       {/* ── Footer ───────────────────────────────────────────────────── */}
       <footer className="bg-[#1a1a1a] px-8 py-6">
-        <div className="max-w-3xl mx-auto flex justify-between items-center">
+        <div className="flex justify-between items-center">
           <span className="text-[#F5F5F0] text-sm">Mollie Anderson</span>
           <a
-            href="mailto:hello@mollie.design"
+            href="mailto:molliean29@gmail.com"
             className="text-[#888780] text-sm hover:text-[#F5F5F0] transition-colors"
           >
-            hello@mollie.design
+            molliean29@gmail.com
           </a>
         </div>
       </footer>
