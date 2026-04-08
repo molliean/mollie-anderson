@@ -12,7 +12,7 @@ export default function Home() {
     <main className="min-h-screen font-[family-name:var(--font-primary)]">
       {/* ── Hero ─────────────────────────────────────────────────────── */}
       <section className="w-full bg-[#EDE0C8] border-b border-[#1a1a1a]">
-        <div className="px-8 py-16 md:py-24">
+        <div className="px-32 py-16 md:py-24">
           <p className="text-[#888780] text-sm mb-5 tracking-wide">
             Product designer · Los Angeles
           </p>
