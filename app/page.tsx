@@ -114,8 +114,8 @@ export default function Home() {
               ))}
             </div>
             <div className="flex flex-wrap gap-3">
-              <a href="#" className={BTN}>Live site</a>
-              <a href="#" className={BTN}>GitHub</a>
+              <a href="https://curate-sphere.netlify.app/" target="_blank" rel="noopener noreferrer" className={BTN}>Live site</a>
+              <a href="https://github.com/molliean/curate-sphere" target="_blank" rel="noopener noreferrer" className={BTN}>GitHub</a>
             </div>
           </div>
         </div>
