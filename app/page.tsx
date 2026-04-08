@@ -54,9 +54,9 @@ export default function Home() {
         <p className="text-xs uppercase tracking-widest text-[#888780] mb-6">
           Work
         </p>
-        <div className="border border-[#1a1a1a] rounded-[4px] flex flex-col md:flex-row">
+        <div className="border border-[#1a1a1a] rounded-[4px]">
           {/* Project 1: Creature */}
-          <div className="p-8 flex-1 bg-white rounded-tl-[4px] rounded-bl-[4px] md:border-r md:border-b-0 border-b border-[#1a1a1a]">
+          <div className="p-8 bg-white border-b border-[#1a1a1a]">
             <div className="flex justify-between items-baseline gap-4 mb-4">
               <h2 className="text-lg font-bold text-[#1a1a1a]">Creature</h2>
               <span className="text-sm text-[#888780] shrink-0">
@@ -86,7 +86,7 @@ export default function Home() {
           </div>
 
           {/* Project 2: CurateSphere */}
-          <div className="p-8 flex-1 bg-white rounded-tr-[4px] rounded-br-[4px]">
+          <div className="p-8 bg-white">
             <div className="flex justify-between items-baseline gap-4 mb-4">
               <h2 className="text-lg font-bold text-[#1a1a1a]">CurateSphere</h2>
               <span className="text-sm text-[#888780] shrink-0">
@@ -121,7 +121,7 @@ export default function Home() {
       </section>
 
       {/* ── Experience ───────────────────────────────────────────────── */}
-      <section className="px-8 pb-16">
+      <section className="px-8 pb-16 max-w-3xl mx-auto">
         <p className="text-xs uppercase tracking-widest text-[#888780] mb-6">
           Experience
         </p>
