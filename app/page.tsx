@@ -56,7 +56,7 @@ export default function Home() {
         </p>
         <div className="border border-[#1a1a1a] rounded-[4px] flex flex-col md:flex-row">
           {/* Project 1: Creature */}
-          <div className="p-8 flex-1 md:border-r md:border-b-0 border-b border-[#1a1a1a]">
+          <div className="p-8 w-[400px] md:border-r md:border-b-0 border-b border-[#1a1a1a]">
             <div className="flex justify-between items-baseline gap-4 mb-4">
               <h2 className="text-lg font-bold text-[#1a1a1a]">Creature</h2>
               <span className="text-sm text-[#888780] shrink-0">
@@ -86,7 +86,7 @@ export default function Home() {
           </div>
 
           {/* Project 2: CurateSphere */}
-          <div className="p-8 flex-1">
+          <div className="p-8 w-[400px]">
             <div className="flex justify-between items-baseline gap-4 mb-4">
               <h2 className="text-lg font-bold text-[#1a1a1a]">CurateSphere</h2>
               <span className="text-sm text-[#888780] shrink-0">
