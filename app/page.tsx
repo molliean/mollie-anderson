@@ -22,17 +22,16 @@ export default function Home() {
           <p className="text-lg sm:text-xl text-[#1a1a1a] mb-7">Design × engineering × AI</p>
           <p className="text-[#1a1a1a] mb-9 max-w-2xl leading-relaxed text-sm">
             I&apos;m a product designer and engineer based in Los Angeles, with a
-            background that runs from the conservation labs of the Metropolitan
+            background that runs from the photo labs of the Metropolitan
             Museum of Art to the engineering team of one of the leading AI
             developer platforms. I spent two years as senior executive assistant
             to the CEO of Weights &amp; Biases, learning how fast-moving
             technical products get built and shipped, then completed a software
-            engineering bootcamp and joined the team as an engineer, shipping
+            engineering bootcamp and joined the team as an engineer, where I shipped
             frontend and backend features in production. Product design is where
-            those threads converge: the visual instincts from my arts
+            each of these threads converge: the visual instincts from my arts
             background, the systems thinking from operations, and the technical
-            fluency from engineering. Passionate about creating seamless user
-            experiences and exploring the power of AI to enhance design
+            fluency from engineering. I'm excited about building delightful products and exploring the power of AI to enhance design
             workflows.
           </p>
           <div className="flex flex-wrap gap-3">
