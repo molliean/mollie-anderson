@@ -66,7 +66,7 @@ export default function Home() {
             {/* Project 1: Creature Books */}
             <div className="p-6 sm:p-8 bg-white border-b border-[#1a1a1a]">
               <div className="flex flex-col sm:flex-row sm:justify-between sm:items-baseline gap-1 sm:gap-4 mb-4">
-                <h2 className="text-lg font-bold text-[#1a1a1a]">Creature Books</h2>
+                <h2 className="text-lg font-bold text-[#1a1a1a]">Creature Books (2026)</h2>
                 <span className="text-sm text-[#888780] sm:shrink-0">
                   Design system + Next.js app
                 </span>
@@ -99,7 +99,7 @@ export default function Home() {
             {/* Project 2: CurateSphere */}
             <div className="p-6 sm:p-8 bg-white">
               <div className="flex flex-col sm:flex-row sm:justify-between sm:items-baseline gap-1 sm:gap-4 mb-4">
-                <h2 className="text-lg font-bold text-[#1a1a1a]">CurateSphere</h2>
+                <h2 className="text-lg font-bold text-[#1a1a1a]">CurateSphere (2024)</h2>
                 <span className="text-sm text-[#888780] sm:shrink-0">
                   PERN stack web app
                 </span>
