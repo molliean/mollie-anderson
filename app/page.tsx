@@ -74,7 +74,7 @@ export default function Home() {
               </div>
               <p className="text-[#1a1a1a] mb-5 leading-relaxed text-sm">
                 Creature is a book discovery and tracking app with a fully
-                documented design system — token foundation, component specs, and
+                documented design system, including a token foundation, component specs, and
                 a user flow diagram built in Figma. The frontend is built in
                 Next.js with TypeScript using Claude Code, with an AI-powered
                 mood-based book recommendation feature on the Explore screen.
@@ -171,7 +171,7 @@ export default function Home() {
               <div>
                 <p className="text-[#1a1a1a] text-sm font-medium">Assistant Administrator</p>
                 <p className="text-sm text-[#888780]">The Metropolitan Museum of Art</p>
-                <p className="text-xs text-[#888780] mt-1">Managed collection of archival photographs; coordinated research, grant proposals, and public programming; co-authored peer-reviewed publications.</p>
+                <p className="text-xs text-[#888780] mt-1">Coordinated projects and research for photography exhibitions; managed collection of archival photographs; co-authored peer-reviewed publications.</p>
               </div>
             </div>
           </div>
