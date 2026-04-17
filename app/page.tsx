@@ -13,16 +13,14 @@ export default function Home() {
       {/* ── Hero ─────────────────────────────────────────────────────── */}
       <section className="w-full bg-[#CBDEE1] border-b border-[#1a1a1a]">
         <div className="max-w-[900px] mx-auto px-4 sm:px-8 py-12 sm:py-16 md:py-24">
-          <p className="text-[#888780] text-xs mb-5 tracking-widest uppercase">
-            Product designer · Los Angeles
-          </p>
+
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-[#1a1a1a] mb-4 leading-tight">
             Mollie Anderson
           </h1>
           <p className="text-lg sm:text-xl text-[#1a1a1a] mb-7">Design × engineering × AI</p>
           <p className="text-[#1a1a1a] mb-9 max-w-2xl leading-relaxed text-sm">
             I&apos;m a product designer and engineer based in Los Angeles, with a
-            background that runs from the photo labs of the Metropolitan
+            background that runs from the galleries of the Metropolitan
             Museum of Art to the engineering team of one of the leading AI
             developer platforms. I spent two years as senior executive assistant
             to the CEO of Weights &amp; Biases, learning how fast-moving
@@ -81,7 +79,7 @@ export default function Home() {
                 prompt and response through the discovery flow.
               </p>
               <div className="flex flex-wrap gap-2 mb-6">
-                {["Claude API", "W&B Weave", "Next.js", "TypeScript"].map(
+                {["Claude API", "W&B Weave", "Next.js", "TypeScript", "React", "Tailwind CSS"].map(
                   (tag) => (
                     <span key={tag} className={TAG}>
                       {tag}
@@ -118,7 +116,7 @@ export default function Home() {
                   "Express",
                   "React",
                   "Node.js",
-                  "Harvard Art Museums API",
+                  "Tailwind CSS",
                 ].map((tag) => (
                   <span key={tag} className={TAG}>
                     {tag}
@@ -171,6 +169,33 @@ export default function Home() {
                 <p className="text-[#1a1a1a] text-sm font-medium">Assistant Administrator</p>
                 <p className="text-sm text-[#888780]">The Metropolitan Museum of Art</p>
                 <p className="text-xs text-[#888780] mt-1">Coordinated projects and research for photography exhibitions; managed collection of archival photographs; co-authored peer-reviewed publications.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── Education ───────────────────────────────────────────────── */}
+      <section className="pb-12 sm:pb-16">
+        <div className="max-w-[900px] mx-auto px-4 sm:px-8">
+          <p className="text-xs uppercase tracking-widest text-[#888780] mb-6">
+            Education
+          </p>
+          <div className="divide-y divide-[#1a1a1a]">
+            <div className="grid grid-cols-[72px_1fr] sm:grid-cols-[100px_1fr] gap-4 sm:gap-6 py-6">
+              <span className="text-sm text-[#888780] pt-px">2024</span>
+              <div>
+                <p className="text-[#1a1a1a] text-sm font-medium">General Assembly</p>
+                <p className="text-sm text-[#888780]">Software Engineering Bootcamp</p>
+                <p className="text-xs text-[#888780] mt-1">New York, NY / Remote</p>
+              </div>
+            </div>
+            <div className="grid grid-cols-[72px_1fr] sm:grid-cols-[100px_1fr] gap-4 sm:gap-6 py-6">
+              <span className="text-sm text-[#888780] pt-px">2009–13</span>
+              <div>
+                <p className="text-[#1a1a1a] text-sm font-medium">University of Pennsylvania</p>
+                <p className="text-sm text-[#888780]">BA with Honors in Philosophy · Minors in French &amp; History</p>
+                <p className="text-xs text-[#888780] mt-1">Philadelphia, PA</p>
               </div>
             </div>
           </div>
