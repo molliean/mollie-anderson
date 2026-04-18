@@ -42,6 +42,14 @@ export default function Home() {
               GitHub
             </a>
             <a
+              href="https://drive.google.com/file/d/1p6lnl-WkdnFEB-BIZJYwekjnYArC8Qgv/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={PILL}
+            >
+              Resume
+            </a>
+            <a
               href="https://www.linkedin.com/in/mollie-anderson/"
               target="_blank"
               rel="noopener noreferrer"
