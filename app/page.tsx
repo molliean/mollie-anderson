@@ -97,8 +97,10 @@ export default function Home() {
               </div>
               <div className="flex flex-wrap gap-3">
                 <a href="https://creature-app.vercel.app/" target="_blank" rel="noopener noreferrer" className={BTN}>Live site</a>
-                <a href="https://github.com/molliean/creature-app" target="_blank" rel="noopener noreferrer" className={BTN}>GitHub</a>
                 <a href="https://www.figma.com/design/58i3A5rml54rTcRGa5QyP6/CB-APP?node-id=71-770&t=j5tDMJjWdvJwv8dN-1" target="_blank" rel="noopener noreferrer" className={BTN}>Figma design</a>
+                <a href="https://www.notion.so/End-to-end-app-Creature-Books-33de7a11edf58079a64cc611a8628b8c?showMoveTo=true&saveParent=true" target="_blank" rel="noopener noreferrer" className={BTN}>Case study</a>
+                <a href="https://github.com/molliean/creature-app" target="_blank" rel="noopener noreferrer" className={BTN}>GitHub</a>
+                <a href="https://wandb.ai/molliean29-test/creature-app/overview" target="_blank" rel="noopener noreferrer" className={BTN}>Weave dashboard</a>
               </div>
             </div>
 
