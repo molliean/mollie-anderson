@@ -26,7 +26,7 @@ export default function Home() {
             to the CEO of Weights &amp; Biases, learning how fast-moving
             technical products get built and shipped, I completed a software
             engineering bootcamp and joined the team as an engineer, where I shipped
-            frontend and backend features in production. Design engineering is the culmination of my my diverse professional experience, using the visual instincts from my arts
+            frontend and backend features in production. Design engineering is the culmination of my diverse professional experience, using the visual instincts from my arts
             background, the systems thinking from operations, and the technical
             fluency from engineering. I'm excited about building delightful products and exploring the power of AI to enhance design
             workflows.
