@@ -22,12 +22,11 @@ export default function Home() {
             I&apos;m a product designer and engineer based in Los Angeles, with a
             background that runs from the galleries of the Metropolitan
             Museum of Art to the engineering team of one of the leading AI
-            developer platforms. I spent two years as senior executive assistant
+            developer platforms. After spending two years as senior executive assistant
             to the CEO of Weights &amp; Biases, learning how fast-moving
-            technical products get built and shipped, then completed a software
+            technical products get built and shipped, I completed a software
             engineering bootcamp and joined the team as an engineer, where I shipped
-            frontend and backend features in production. Product design is where
-            each of these threads converge: the visual instincts from my arts
+            frontend and backend features in production. Design engineering is the culmination of my my diverse professional experience, using the visual instincts from my arts
             background, the systems thinking from operations, and the technical
             fluency from engineering. I'm excited about building delightful products and exploring the power of AI to enhance design
             workflows.
@@ -72,7 +71,7 @@ export default function Home() {
             {/* Project 1: Creature Books */}
             <div className="p-6 sm:p-8 bg-white border-b border-[#1a1a1a]">
               <div className="flex flex-col sm:flex-row sm:justify-between sm:items-baseline gap-1 sm:gap-4 mb-4">
-                <h2 className="text-lg font-bold text-[#1a1a1a]">Creature Books (2026)</h2>
+                <h2 className="text-lg font-bold text-[#1a1a1a]">End-to-end app: Creature Books (2026)</h2>
                 <span className="text-sm text-[#888780] sm:shrink-0">
                   Design system + Next.js app
                 </span>
@@ -107,7 +106,7 @@ export default function Home() {
             {/* Project 2: CurateSphere */}
             <div className="p-6 sm:p-8 bg-white">
               <div className="flex flex-col sm:flex-row sm:justify-between sm:items-baseline gap-1 sm:gap-4 mb-4">
-                <h2 className="text-lg font-bold text-[#1a1a1a]">CurateSphere (2024)</h2>
+                <h2 className="text-lg font-bold text-[#1a1a1a]">Bootcamp capstone: CurateSphere (2024)</h2>
                 <span className="text-sm text-[#888780] sm:shrink-0">
                   PERN stack web app
                 </span>
