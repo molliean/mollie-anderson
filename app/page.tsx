@@ -86,7 +86,7 @@ export default function Home() {
                 prompt and response through the discovery flow.
               </p>
               <div className="flex flex-wrap gap-2 mb-6">
-                {["Claude API", "W&B Weave", "Next.js", "TypeScript", "React", "Tailwind CSS"].map(
+                {["React", "Next.js", "TypeScript", "Tailwind CSS", "Figma MCP", "Claude Code", "W&B Weave"].map(
                   (tag) => (
                     <span key={tag} className={TAG}>
                       {tag}
