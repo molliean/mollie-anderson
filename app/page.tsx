@@ -23,8 +23,7 @@ export default function Home() {
             background that runs from the galleries of the Metropolitan
             Museum of Art to the engineering team of one of the leading AI
             developer platforms. After spending two years as senior executive assistant
-            to the CEO of Weights &amp; Biases, learning how fast-moving
-            technical products get built and shipped, I completed a software
+            to the CEO of Weights &amp; Biases, I completed a software
             engineering bootcamp and joined the team as an engineer, where I shipped
             frontend and backend features in production. Design engineering is the culmination of my diverse professional experience, using the visual instincts from my arts
             background, the systems thinking from operations, and the technical
@@ -134,8 +133,8 @@ export default function Home() {
               </div>
               <div className="flex flex-wrap gap-3">
                 <a href="https://curate-sphere.netlify.app/" target="_blank" rel="noopener noreferrer" className={BTN}>Live site</a>
-                <a href="https://github.com/molliean/curate-sphere" target="_blank" rel="noopener noreferrer" className={BTN}>GitHub</a>
                 <a href="https://www.figma.com/design/UILGjDnILVrmreHgQdoybi/CurateSphere-redesign?node-id=0-1&p=f&t=UsD6dySaDiicpahM-0" target="_blank" rel="noopener noreferrer" className={BTN}>Figma redesign</a>
+                <a href="https://github.com/molliean/curate-sphere" target="_blank" rel="noopener noreferrer" className={BTN}>GitHub</a>
               </div>
             </div>
           </div>
