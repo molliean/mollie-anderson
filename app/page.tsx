@@ -19,7 +19,7 @@ export default function Home() {
           </h1>
           <p className="text-lg sm:text-xl text-[#1a1a1a] mb-7">Design × engineering × AI</p>
           <p className="text-[#1a1a1a] mb-9 max-w-2xl leading-relaxed text-sm">
-            I&apos;m a product designer and engineer based in Los Angeles, with a
+            I&apos;m a software engineer and product designer based in Los Angeles, with a
             background that runs from the galleries of the Metropolitan
             Museum of Art to the engineering team of one of the leading AI
             developer platforms. After spending two years as senior executive assistant
@@ -27,7 +27,7 @@ export default function Home() {
             engineering bootcamp and joined the team as an engineer, where I shipped
             frontend and backend features in production. Design engineering is the culmination of my diverse professional experience, using the visual instincts from my arts
             background, the systems thinking from operations, and the technical
-            fluency from engineering. I'm excited about building delightful products and exploring the power of AI to enhance design
+            fluency from engineering to conceive and build products end-to-end. I'm excited about building delightful user experiences and exploring the power of AI to enhance design and development
             workflows.
           </p>
           <div className="flex flex-wrap gap-3">
@@ -94,8 +94,8 @@ export default function Home() {
                 )}
               </div>
               <div className="flex flex-wrap gap-3">
+              <a href="https://www.figma.com/design/58i3A5rml54rTcRGa5QyP6/CB-APP?node-id=71-770&t=j5tDMJjWdvJwv8dN-1" target="_blank" rel="noopener noreferrer" className={BTN}>Figma design</a>
                 <a href="https://creature-app.vercel.app/" target="_blank" rel="noopener noreferrer" className={BTN}>Live site</a>
-                <a href="https://www.figma.com/design/58i3A5rml54rTcRGa5QyP6/CB-APP?node-id=71-770&t=j5tDMJjWdvJwv8dN-1" target="_blank" rel="noopener noreferrer" className={BTN}>Figma design</a>
                 <a href="https://www.notion.so/End-to-end-app-Creature-Books-33de7a11edf58079a64cc611a8628b8c?showMoveTo=true&saveParent=true" target="_blank" rel="noopener noreferrer" className={BTN}>Case study</a>
                 <a href="https://github.com/molliean/creature-app" target="_blank" rel="noopener noreferrer" className={BTN}>GitHub</a>
                 <a href="https://wandb.ai/molliean29-test/creature-app/overview" target="_blank" rel="noopener noreferrer" className={BTN}>Weave dashboard</a>
@@ -132,8 +132,8 @@ export default function Home() {
                 ))}
               </div>
               <div className="flex flex-wrap gap-3">
+              <a href="https://www.figma.com/design/UILGjDnILVrmreHgQdoybi/CurateSphere-redesign?node-id=0-1&p=f&t=UsD6dySaDiicpahM-0" target="_blank" rel="noopener noreferrer" className={BTN}>Figma redesign</a>
                 <a href="https://curate-sphere.netlify.app/" target="_blank" rel="noopener noreferrer" className={BTN}>Live site</a>
-                <a href="https://www.figma.com/design/UILGjDnILVrmreHgQdoybi/CurateSphere-redesign?node-id=0-1&p=f&t=UsD6dySaDiicpahM-0" target="_blank" rel="noopener noreferrer" className={BTN}>Figma redesign</a>
                 <a href="https://github.com/molliean/curate-sphere" target="_blank" rel="noopener noreferrer" className={BTN}>GitHub</a>
               </div>
             </div>

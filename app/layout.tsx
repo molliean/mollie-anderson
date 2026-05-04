@@ -8,7 +8,7 @@ const inconsolata = Inconsolata({
 });
 
 export const metadata: Metadata = {
-  title: "Mollie Anderson — Product Designer",
+  title: "Mollie Anderson",
   description:
     "Product designer based in Los Angeles working at the intersection of design, engineering, and AI.",
 };
