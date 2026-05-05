@@ -103,7 +103,7 @@ export default function Home() {
             </div>
 
             {/* Project 2: CurateSphere */}
-            <div className="p-6 sm:p-8 bg-white">
+            <div className="p-6 sm:p-8 bg-white border-b border-[#1a1a1a]">
               <div className="flex flex-col sm:flex-row sm:justify-between sm:items-baseline gap-1 sm:gap-4 mb-4">
                 <h2 className="text-lg font-bold text-[#1a1a1a]">CurateSphere (2024, redesign in progress)</h2>
                 <span className="text-sm text-[#888780] sm:shrink-0">
@@ -135,6 +135,22 @@ export default function Home() {
               <a href="https://www.figma.com/design/UILGjDnILVrmreHgQdoybi/CurateSphere-redesign?node-id=0-1&p=f&t=UsD6dySaDiicpahM-0" target="_blank" rel="noopener noreferrer" className={BTN}>Figma redesign</a>
                 <a href="https://curate-sphere.netlify.app/" target="_blank" rel="noopener noreferrer" className={BTN}>Live site</a>
                 <a href="https://github.com/molliean/curate-sphere" target="_blank" rel="noopener noreferrer" className={BTN}>GitHub</a>
+              </div>
+            </div>
+
+            {/* Project 3: W&B Design Challenge */}
+            <div className="p-6 sm:p-8 bg-white">
+              <div className="flex flex-col sm:flex-row sm:justify-between sm:items-baseline gap-1 sm:gap-4 mb-4">
+                <h2 className="text-base font-bold text-[#1a1a1a]">W&amp;B Design Challenge: Frozen Visualizations in Reports</h2>
+                <span className="text-sm text-[#888780] sm:shrink-0">UX case study</span>
+              </div>
+              <p className="text-[#1a1a1a] mb-5 text-sm leading-relaxed">
+                Self-initiated design challenge based on a real W&amp;B product problem in Reports. I designed two solutions in Figma, built an interactive prototype, deployed a coded version, and wrote a full case study.
+              </p>
+              <div className="flex flex-wrap gap-3">
+                <a href="https://www.notion.so/W-B-Design-Challenge-Frozen-Visualizations-in-Reports-2aae7a11edf580b0b46cc34686c11708" target="_blank" rel="noopener noreferrer" className={BTN}>Case study</a>
+                <a href="https://www.figma.com/design/sgyRIOEziHeyk5mAgKK9cR/W-B-Frozen-Visualizations?node-id=18-3&t=1vE6rG57yvcyrr3w-0" target="_blank" rel="noopener noreferrer" className={BTN}>Figma file</a>
+                <a href="https://interactivfreeze-indicator.vercel.app/" target="_blank" rel="noopener noreferrer" className={BTN}>Prototype</a>
               </div>
             </div>
           </div>
