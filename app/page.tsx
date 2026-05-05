@@ -21,8 +21,7 @@ export default function Home() {
           <p className="text-[#1a1a1a] mb-9 max-w-2xl leading-relaxed text-sm">
             I&apos;m a software engineer and product designer based in Los Angeles, with a
             background that runs from the galleries of the Metropolitan
-            Museum of Art to the engineering team of one of the leading AI
-            developer platforms. After spending two years as senior executive assistant
+            Museum of Art to the engineering team of the AI developer platform powering the world's most advanced models. After spending two years as senior executive assistant
             to the CEO of Weights &amp; Biases, I completed a software
             engineering bootcamp and joined the team as an engineer, where I shipped
             frontend and backend features in production. Design engineering is the culmination of my diverse professional experience, using the visual instincts from my arts
@@ -40,7 +39,7 @@ export default function Home() {
               GitHub
             </a>
             <a
-              href="https://drive.google.com/file/d/1p6lnl-WkdnFEB-BIZJYwekjnYArC8Qgv/view?usp=sharing"
+              href="https://drive.google.com/file/d/1f5f90mYcdxWVueXbnLYaezAuLrgBKg6W/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className={PILL}
