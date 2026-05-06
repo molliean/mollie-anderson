@@ -66,10 +66,46 @@ export default function Home() {
             Work
           </p>
           <div className="border border-[#1a1a1a] rounded-[4px]">
-            {/* Project 1: Creature Books */}
+            {/* Project 1: CurateSphere */}
             <div className="p-6 sm:p-8 bg-white border-b border-[#1a1a1a]">
               <div className="flex flex-col sm:flex-row sm:justify-between sm:items-baseline gap-1 sm:gap-4 mb-4">
-                <h2 className="text-lg font-bold text-[#1a1a1a]">Creature Books (2026)</h2>
+                <h2 className="text-lg font-bold text-[#1a1a1a]">CurateSphere</h2>
+                <span className="text-sm text-[#888780] sm:shrink-0">
+                  PERN stack web app
+                </span>
+              </div>
+              <p className="text-[#1a1a1a] mb-5 leading-relaxed text-sm">
+                Originally built in 2024,CurateSphere is a full-stack art exhibition curation app built on
+                the PERN stack, integrating the Harvard Art Museums API to give
+                users access to over 244,000 artworks. Users can create, edit, and
+                share personal exhibitions with advanced filtering by medium,
+                culture, period, and technique. Built with React, Node.js,
+                Express, PostgreSQL, and Tailwind CSS. Currently redesigning the entire UI in Figma with a new design system and component library.
+              </p>
+              <div className="flex flex-wrap gap-2 mb-6">
+                {[
+                  "PostgreSQL",
+                  "Express",
+                  "React",
+                  "Node.js",
+                  "Tailwind CSS",
+                ].map((tag) => (
+                  <span key={tag} className={TAG}>
+                    {tag}
+                  </span>
+                ))}
+              </div>
+              <div className="flex flex-wrap gap-3">
+              <a href="https://www.figma.com/design/UILGjDnILVrmreHgQdoybi/CurateSphere-redesign?node-id=0-1&p=f&t=UsD6dySaDiicpahM-0" target="_blank" rel="noopener noreferrer" className={BTN}>Figma redesign</a>
+                <a href="https://curate-sphere.netlify.app/" target="_blank" rel="noopener noreferrer" className={BTN}>Live site</a>
+                <a href="https://github.com/molliean/curate-sphere" target="_blank" rel="noopener noreferrer" className={BTN}>GitHub</a>
+              </div>
+            </div>
+
+            {/* Project 2: Creature Books */}
+            <div className="p-6 sm:p-8 bg-white border-b border-[#1a1a1a]">
+              <div className="flex flex-col sm:flex-row sm:justify-between sm:items-baseline gap-1 sm:gap-4 mb-4">
+                <h2 className="text-lg font-bold text-[#1a1a1a]">Creature Books</h2>
                 <span className="text-sm text-[#888780] sm:shrink-0">
                   Design system + Next.js app
                 </span>
@@ -98,42 +134,6 @@ export default function Home() {
                 <a href="https://www.notion.so/End-to-end-app-Creature-Books-33de7a11edf58079a64cc611a8628b8c?showMoveTo=true&saveParent=true" target="_blank" rel="noopener noreferrer" className={BTN}>Case study</a>
                 <a href="https://github.com/molliean/creature-app" target="_blank" rel="noopener noreferrer" className={BTN}>GitHub</a>
                 <a href="https://wandb.ai/molliean29-test/creature-app/overview" target="_blank" rel="noopener noreferrer" className={BTN}>Weave dashboard</a>
-              </div>
-            </div>
-
-            {/* Project 2: CurateSphere */}
-            <div className="p-6 sm:p-8 bg-white border-b border-[#1a1a1a]">
-              <div className="flex flex-col sm:flex-row sm:justify-between sm:items-baseline gap-1 sm:gap-4 mb-4">
-                <h2 className="text-lg font-bold text-[#1a1a1a]">CurateSphere (2024, redesign in progress)</h2>
-                <span className="text-sm text-[#888780] sm:shrink-0">
-                  PERN stack web app
-                </span>
-              </div>
-              <p className="text-[#1a1a1a] mb-5 leading-relaxed text-sm">
-                CurateSphere is a full-stack art exhibition curation app built on
-                the PERN stack, integrating the Harvard Art Museums API to give
-                users access to over 244,000 artworks. Users can create, edit, and
-                share personal exhibitions with advanced filtering by medium,
-                culture, period, and technique. Built with React, Node.js,
-                Express, PostgreSQL, and Tailwind CSS. Currently redesigning the entire UI in Figma with a new design system and component library.
-              </p>
-              <div className="flex flex-wrap gap-2 mb-6">
-                {[
-                  "PostgreSQL",
-                  "Express",
-                  "React",
-                  "Node.js",
-                  "Tailwind CSS",
-                ].map((tag) => (
-                  <span key={tag} className={TAG}>
-                    {tag}
-                  </span>
-                ))}
-              </div>
-              <div className="flex flex-wrap gap-3">
-              <a href="https://www.figma.com/design/UILGjDnILVrmreHgQdoybi/CurateSphere-redesign?node-id=0-1&p=f&t=UsD6dySaDiicpahM-0" target="_blank" rel="noopener noreferrer" className={BTN}>Figma redesign</a>
-                <a href="https://curate-sphere.netlify.app/" target="_blank" rel="noopener noreferrer" className={BTN}>Live site</a>
-                <a href="https://github.com/molliean/curate-sphere" target="_blank" rel="noopener noreferrer" className={BTN}>GitHub</a>
               </div>
             </div>
 
