@@ -80,7 +80,7 @@ export default function Home() {
                 users access to over 244,000 artworks. Users can create, edit, and
                 share personal exhibitions with advanced filtering by medium,
                 culture, period, and technique. Built with React, Node.js,
-                Express, PostgreSQL, and Tailwind CSS. Currently redesigning the entire UI in Figma with a new design system and component library.
+                Express, PostgreSQL, and Tailwind CSS. Currently redesigning the entire UI in Figma with a new design system and component library. Frontend rebuild with Claude Code in progress.
               </p>
               <div className="flex flex-wrap gap-2 mb-6">
                 {[
@@ -97,7 +97,8 @@ export default function Home() {
               </div>
               <div className="flex flex-wrap gap-3">
               <a href="https://www.figma.com/design/UILGjDnILVrmreHgQdoybi/CurateSphere-redesign?node-id=0-1&p=f&t=UsD6dySaDiicpahM-0" target="_blank" rel="noopener noreferrer" className={BTN}>Figma redesign</a>
-                <a href="https://curate-sphere.netlify.app/" target="_blank" rel="noopener noreferrer" className={BTN}>Live site</a>
+                <a href="https://curate-sphere-git-redesign-molliean29-6542s-projects.vercel.app/" target="_blank" rel="noopener noreferrer" className={BTN}>Deployed redesign</a>
+                <a href="https://curate-sphere.netlify.app/" target="_blank" rel="noopener noreferrer" className={BTN}>Deployed original</a>
                 <a href="https://github.com/molliean/curate-sphere" target="_blank" rel="noopener noreferrer" className={BTN}>GitHub</a>
               </div>
             </div>
