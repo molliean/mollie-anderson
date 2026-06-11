@@ -137,7 +137,7 @@ export default function Home() {
                 <a href="https://curate-sphere-git-redesign-molliean29-6542s-projects.vercel.app/" target="_blank" rel="noopener noreferrer" className={BTN}>Deployed redesign</a>
                 <a href="https://curate-sphere.netlify.app/" target="_blank" rel="noopener noreferrer" className={BTN}>Deployed original</a>
                 <a href="https://www.figma.com/design/UILGjDnILVrmreHgQdoybi/CurateSphere-redesign?node-id=0-1&p=f&t=UsD6dySaDiicpahM-0" target="_blank" rel="noopener noreferrer" className={BTN}>Figma designs</a>
-                <a href="https://github.com/molliean/curate-sphere" target="_blank" rel="noopener noreferrer" className={BTN}>GitHub</a>
+                <a href="https://github.com/molliean/curate-sphere/tree/redesign" target="_blank" rel="noopener noreferrer" className={BTN}>GitHub</a>
               </div>
             </div>
 
